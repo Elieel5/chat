@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NODE CHAT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="page" id="loginPage">
+       <h1>What's your name ?</h1>
+       <input type="text" id="loginNameInput" placeholder="Enter your name">
+   </div>
+
+   <div class="page" id="chatPage">
+       <div class="chatArea">
+           <ul class="chatList">
+               <li class="m-status">user entered the room</li>
+               <li class="m-status">User left the room</li>
+               <li class="m-txt"><span class="me">Eliel Ribeiro</span> E ai, Jovens!</li>
+               <li class="m-txt"><span>Diego</span> E ai, Jovens!</li>
+           </ul>
+           <ul class="userList">
+               <li class="user">Eliel(you)</li>
+               <li class="user">David</li>
+               <li class="user">Diego</li>
+           </ul>
+       </div>
+       <div class="chatInput">
+           <input type="text" id="chatTextInput" placeholder="Enter your message">
+       </div>
+   </div>
+</body>
+</html>
