@@ -20,11 +20,11 @@ body {
 }
 
 #loginPage {
-    display: none;
+    display: flex;
 }
 
 #loginNameInput {
-    margin-top: 5px;
+    margin-top: 10px;
     border: 2px solid white;
     background-color: #CCC;
     font-size: 18px;
@@ -36,7 +36,7 @@ body {
 }
 
 #chatPage {
-    display: flex;
+    display: none;
 }
 
 .chatArea {
@@ -63,11 +63,11 @@ body {
 
 .chatList li.m-txt span {
     font-weight: bold;
-    color: #e1e1e6;
+    color: #d73628;
 }
 
 .chatList li.m-txt span.me {
-    color: red;
+    color: #00875f;
 }
 
 .userList {
@@ -75,10 +75,12 @@ body {
     background-color: white;
     overflow-y: scroll;
     max-height: calc(100vh - 40px);
+    color: #000;
 }
 
 .user {
     color: black;
+    font-weight: bold;
     padding: 5px;
     font-size: 15px;
 }
@@ -97,4 +99,15 @@ body {
     color: white;
     outline: 0;
     border: 0;
+}
+
+::-webkit-scrollbar {
+    width: .6rem;
+    background-color:  #202024;
+    border-radius:  1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #6646b1;
+    border-radius:  1rem;
 }

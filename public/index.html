@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NODE CHAT</title>
+    <title>Node Chat</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,21 +15,16 @@
 
    <div class="page" id="chatPage">
        <div class="chatArea">
-           <ul class="chatList">
-               <li class="m-status">user entered the room</li>
-               <li class="m-status">User left the room</li>
-               <li class="m-txt"><span class="me">Eliel Ribeiro</span> E ai, Jovens!</li>
-               <li class="m-txt"><span>Diego</span> E ai, Jovens!</li>
-           </ul>
-           <ul class="userList">
-               <li class="user">Eliel(you)</li>
-               <li class="user">David</li>
-               <li class="user">Diego</li>
-           </ul>
+           <ul class="chatList"></ul>
+           <ul class="userList"></ul>
        </div>
+
        <div class="chatInput">
            <input type="text" id="chatTextInput" placeholder="Enter your message">
        </div>
    </div>
+   
+   <script src="/socket.io/socket.io.js"></script>
+   <script src="/index.js"></script>
 </body>
 </html>
