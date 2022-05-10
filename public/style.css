@@ -63,11 +63,11 @@ body {
 
 .chatList li.m-txt span {
     font-weight: bold;
-    color: #d73628;
+    color:  #75f;
 }
 
 .chatList li.m-txt span.me {
-    color: #00875f;
+    color:#00875f;
 }
 
 .userList {
